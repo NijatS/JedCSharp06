@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\bin\Debug\net8.0\Customization.exe
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\bin\Debug\net8.0\Customization.deps.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\bin\Debug\net8.0\Customization.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\bin\Debug\net8.0\Customization.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\bin\Debug\net8.0\Customization.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\refint\Customization.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\Customization.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Customization\Customization\obj\Debug\net8.0\ref\Customization.dll

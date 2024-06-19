@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Interfaces\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B3736BE-9A0A-428C-A10F-93261C9D117B}|Interfaces\\Interfaces.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\interfaces\\interfaces\\task2\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3736BE-9A0A-428C-A10F-93261C9D117B}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\task2\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B3736BE-9A0A-428C-A10F-93261C9D117B}|Interfaces\\Interfaces.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\interfaces\\interfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3736BE-9A0A-428C-A10F-93261C9D117B}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Interfaces\\Interfaces\\Task2\\Car.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Task2\\Car.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Interfaces\\Interfaces\\Task2\\Car.cs",
+              "RelativeToolTip": "Interfaces\\Task2\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T08:53:33.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Masin.cs",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Interfaces\\Interfaces\\task4\\Masin.cs",
               "RelativeDocumentMoniker": "Interfaces\\task4\\Masin.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Interfaces\\task4\\Masin.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T16:47:35.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T16:47:35.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IVehicle.cs",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Interfaces\\Interfaces\\task4\\IVehicle.cs",
               "RelativeDocumentMoniker": "Interfaces\\task4\\IVehicle.cs",
@@ -59,12 +75,11 @@
               "RelativeToolTip": "Interfaces\\task4\\IVehicle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T16:46:29.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T16:46:29.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IMovable.cs",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Interfaces\\Interfaces\\task4\\IMovable.cs",
               "RelativeDocumentMoniker": "Interfaces\\task4\\IMovable.cs",
@@ -72,12 +87,11 @@
               "RelativeToolTip": "Interfaces\\task4\\IMovable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T16:44:48.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T16:44:48.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Interfaces\\Interfaces\\Program.cs",
               "RelativeDocumentMoniker": "Interfaces\\Program.cs",
