@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\bin\Debug\net8.0\Generics&&Collections.exe
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\bin\Debug\net8.0\Generics&&Collections.deps.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\bin\Debug\net8.0\Generics&&Collections.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\bin\Debug\net8.0\Generics&&Collections.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\bin\Debug\net8.0\Generics&&Collections.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\refint\Generics&&Collections.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\Generics&&Collections.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Generics&&Collections\Generics&&Collections\obj\Debug\net8.0\ref\Generics&&Collections.dll
