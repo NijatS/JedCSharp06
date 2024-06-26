@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\bin\Debug\net8.0\HandyClasses.exe
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\bin\Debug\net8.0\HandyClasses.deps.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\bin\Debug\net8.0\HandyClasses.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\bin\Debug\net8.0\HandyClasses.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\bin\Debug\net8.0\HandyClasses.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\refint\HandyClasses.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\HandyClasses.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\HandyClasses\HandyClasses\obj\Debug\net8.0\ref\HandyClasses.dll

@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\handyclasses\\handyclasses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|solutionrelative:handyclasses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\Program.cs",
+              "RelativeDocumentMoniker": "HandyClasses\\Program.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\Program.cs",
+              "RelativeToolTip": "HandyClasses\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T12:02:24.09Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
