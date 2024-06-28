@@ -81,21 +81,49 @@ namespace HandyClasses
 
 
             Guid guid = Guid.NewGuid();
-            Console.WriteLine(guid);
+            //Console.WriteLine(guid);
 
 
 
             //Guid.TryParse("629d27af-bb8d-406b-a486-d5a8239na2ad", out guid);
-            Console.WriteLine(guid);
+            //Console.WriteLine(guid);
 
 
 
             //Console.WriteLine(DateTime.Now.AddTicks(4));
 
 
-            
-            Console.WriteLine(DateTime.DaysInMonth(2023, 2));
 
+            //Console.WriteLine(DateTime.DaysInMonth(2023, 2));
+            //using (Process myProcess = new Process())
+            //{
+            //    // Create an instance of 'myProcessStartInfo'.
+            //    ProcessStartInfo myProcessStartInfo = new ProcessStartInfo();
+            //    myProcessStartInfo.FileName = "notepad";
+            //    myProcess.StartInfo = myProcessStartInfo;
+            //    // Start process.
+            //    myProcess.Start();
+            //    // Allow the process to finish starting.
+            //    myProcess.WaitForInputIdle();
+            //    Console.Write("Main window Title : " + myProcess.MainWindowTitle);
+
+            //    myProcess.CloseMainWindow();
+            //}
+
+            //string password =  PasswordGenerator.GenerateUniquePassword(10);
+            //Console.WriteLine(password);
+
+
+            //var generator = new RandomDataSimulation();
+            //var people = generator.DataSimulation(10);
+            //foreach (var person in people)
+            //{
+            //    Console.WriteLine($"Name: {person.Name}, Age: {person.Age}, DateOfBirth: {person.DateOfBirth}, ID: {person.Id}");
+            //}
+
+            Console.WriteLine("Factorial of your number:" + MathOperation.Factorial(3));
+            Console.WriteLine("Power of your numbers:" + MathOperation.Power(2, 5));
+            Console.WriteLine("Gcd of numbers:" + MathOperation.GCD(-10,-20));
 
         }
     }

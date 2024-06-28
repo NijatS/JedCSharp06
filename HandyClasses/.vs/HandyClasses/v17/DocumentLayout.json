@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\handyclasses\\handyclasses\\randomnameage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|solutionrelative:handyclasses\\randomnameage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\handyclasses\\handyclasses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|solutionrelative:handyclasses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\handyclasses\\handyclasses\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD4BA7-7770-4D79-ACDE-5B4E420ECDC1}|HandyClasses\\HandyClasses.csproj|solutionrelative:handyclasses\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +35,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RandomNameAge.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\RandomNameAge.cs",
+              "RelativeDocumentMoniker": "HandyClasses\\RandomNameAge.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\RandomNameAge.cs",
+              "RelativeToolTip": "HandyClasses\\RandomNameAge.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAYwEwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:58:33.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\PasswordGenerator.cs",
+              "RelativeDocumentMoniker": "HandyClasses\\PasswordGenerator.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\PasswordGenerator.cs",
+              "RelativeToolTip": "HandyClasses\\PasswordGenerator.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvxEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T10:42:40.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\Program.cs",
               "RelativeDocumentMoniker": "HandyClasses\\Program.cs",
               "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\HandyClasses\\HandyClasses\\Program.cs",
               "RelativeToolTip": "HandyClasses\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAB7AAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAkwH0AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T12:02:24.09Z",
               "EditorCaption": ""

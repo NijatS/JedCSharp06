@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HandyClasses")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+826f8731ea4beede84f7851a994044bfc1bc7bba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0c02a9ac5312310ce75d5439f4ea5544074e8bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("HandyClasses")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HandyClasses")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
