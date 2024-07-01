@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Files\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8B140E-3677-4C93-87F7-3B89A4FFBE05}|Files\\Files.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\files\\files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8B140E-3677-4C93-87F7-3B89A4FFBE05}|Files\\Files.csproj|solutionrelative:files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8B140E-3677-4C93-87F7-3B89A4FFBE05}|Files\\Files.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\files\\files\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0C8B140E-3677-4C93-87F7-3B89A4FFBE05}|Files\\Files.csproj|solutionrelative:files\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8B140E-3677-4C93-87F7-3B89A4FFBE05}|Files\\Files.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\files\\files\\test1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0C8B140E-3677-4C93-87F7-3B89A4FFBE05}|Files\\Files.csproj|solutionrelative:files\\test1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test1.txt",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Files\\Files\\test1.txt",
+              "RelativeDocumentMoniker": "Files\\test1.txt",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Files\\Files\\test1.txt",
+              "RelativeToolTip": "Files\\test1.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-01T16:53:11.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.txt",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Files\\Files\\test.txt",
+              "RelativeDocumentMoniker": "Files\\test.txt",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Files\\Files\\test.txt",
+              "RelativeToolTip": "Files\\test.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-01T16:46:54.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Files\\Files\\Program.cs",
+              "RelativeDocumentMoniker": "Files\\Program.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\Files\\Files\\Program.cs",
+              "RelativeToolTip": "Files\\Program.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAQwIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:08:32.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
