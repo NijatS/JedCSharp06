@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Customization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f89bf96d72b202b7f14f9fb219fd8a85ef8d09ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d388a1081e7aaefb90bb542e02c6b113afd44ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Customization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Customization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
