@@ -1,0 +1,12 @@
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\bin\Debug\net8.0\Library2.deps.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\bin\Debug\net8.0\Library2.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\bin\Debug\net8.0\Library2.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\Library2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\Library2.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\Library2.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\Library2.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\Library2.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\Library2.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\refint\Library2.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\Library2.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library2\obj\Debug\net8.0\ref\Library2.dll

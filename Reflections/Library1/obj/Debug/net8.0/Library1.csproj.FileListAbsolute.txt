@@ -1,0 +1,12 @@
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\bin\Debug\net8.0\Library1.deps.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\bin\Debug\net8.0\Library1.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\bin\Debug\net8.0\Library1.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\Library1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\Library1.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\Library1.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\Library1.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\Library1.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\Library1.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\refint\Library1.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\Library1.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\Reflections\Library1\obj\Debug\net8.0\ref\Library1.dll
