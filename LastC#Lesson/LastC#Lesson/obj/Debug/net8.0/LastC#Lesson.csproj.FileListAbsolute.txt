@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\bin\Debug\net8.0\LastC#Lesson.exe
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\bin\Debug\net8.0\LastC#Lesson.deps.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\bin\Debug\net8.0\LastC#Lesson.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\bin\Debug\net8.0\LastC#Lesson.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\bin\Debug\net8.0\LastC#Lesson.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\refint\LastC#Lesson.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\LastC#Lesson.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\LastC#Lesson\LastC#Lesson\obj\Debug\net8.0\ref\LastC#Lesson.dll
