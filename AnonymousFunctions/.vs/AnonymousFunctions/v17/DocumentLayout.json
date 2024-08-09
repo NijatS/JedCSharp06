@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\AnonymousFunctions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66C0878B-8057-40BF-8076-85689BE32BAB}|AnonymousFunctions\\AnonymousFunctions.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\anonymousfunctions\\anonymousfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66C0878B-8057-40BF-8076-85689BE32BAB}|AnonymousFunctions\\AnonymousFunctions.csproj|solutionrelative:anonymousfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 296,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\AnonymousFunctions\\AnonymousFunctions\\Program.cs",
+              "RelativeDocumentMoniker": "AnonymousFunctions\\Program.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\AnonymousFunctions\\AnonymousFunctions\\Program.cs",
+              "RelativeToolTip": "AnonymousFunctions\\Program.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAmwLIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:08:11.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 104,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

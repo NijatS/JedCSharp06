@@ -1,0 +1,15 @@
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.exe
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.deps.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.runtimeconfig.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.AssemblyInfoInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.AssemblyInfo.cs
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.csproj.CoreCompileInputs.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.sourcelink.json
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\refint\AnonymousFunctions.dll
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.pdb
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.genruntimeconfig.cache
+C:\Users\Nijat\OneDrive\Desktop\C#06\AnonymousFunctions\AnonymousFunctions\obj\Debug\net8.0\ref\AnonymousFunctions.dll
