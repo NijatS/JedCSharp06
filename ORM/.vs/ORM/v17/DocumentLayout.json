@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\orm\\orm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|solutionrelative:orm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\orm\\orm\\codefirst\\hmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|solutionrelative:orm\\codefirst\\hmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\orm\\orm\\migrations\\hmsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|solutionrelative:orm\\migrations\\hmsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|c:\\users\\nijat\\onedrive\\desktop\\c#06\\orm\\orm\\codefirst\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746F84EC-F562-4296-BE05-093C570B09F7}|ORM\\ORM.csproj|solutionrelative:orm\\codefirst\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HMSDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\Migrations\\HMSDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ORM\\Migrations\\HMSDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\Migrations\\HMSDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ORM\\Migrations\\HMSDbContextModelSnapshot.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:48:19.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\CodeFirst\\HMSDbContext.cs",
+              "RelativeDocumentMoniker": "ORM\\CodeFirst\\HMSDbContext.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\CodeFirst\\HMSDbContext.cs",
+              "RelativeToolTip": "ORM\\CodeFirst\\HMSDbContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:41:45.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\CodeFirst\\Patient.cs",
+              "RelativeDocumentMoniker": "ORM\\CodeFirst\\Patient.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\CodeFirst\\Patient.cs",
+              "RelativeToolTip": "ORM\\CodeFirst\\Patient.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:41:41.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\Program.cs",
+              "RelativeDocumentMoniker": "ORM\\Program.cs",
+              "ToolTip": "C:\\Users\\Nijat\\OneDrive\\Desktop\\C#06\\ORM\\ORM\\Program.cs",
+              "RelativeToolTip": "ORM\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:39:00.293Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:47:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
