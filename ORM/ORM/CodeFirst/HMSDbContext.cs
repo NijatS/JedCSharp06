@@ -11,6 +11,11 @@ namespace ORM.CodeFirst
     {
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
+        public DbSet<Student> Students { get; set; }    
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<StudentAddress> StudentAddresses { get; set; } 
+        public DbSet<Order> Orders { get; set; }    
+        public DbSet<Product> Products { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

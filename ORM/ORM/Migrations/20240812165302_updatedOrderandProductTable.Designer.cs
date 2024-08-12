@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ORM.CodeFirst;
 
@@ -11,9 +12,11 @@ using ORM.CodeFirst;
 namespace ORM.Migrations
 {
     [DbContext(typeof(HMSDbContext))]
-    partial class HMSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240812165302_updatedOrderandProductTable")]
+    partial class updatedOrderandProductTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

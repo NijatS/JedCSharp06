@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ORM.CodeFirst;
 
@@ -11,9 +12,11 @@ using ORM.CodeFirst;
 namespace ORM.Migrations
 {
     [DbContext(typeof(HMSDbContext))]
-    partial class HMSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240812164341_addedOrderandProductTable")]
+    partial class addedOrderandProductTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -85,29 +88,6 @@ namespace ORM.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("ORM.CodeFirst.OrderProduct", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("OrderProduct");
                 });
 
             modelBuilder.Entity("ORM.CodeFirst.Patient", b =>
@@ -219,23 +199,19 @@ namespace ORM.Migrations
                     b.ToTable("StudentAddresses");
                 });
 
-            modelBuilder.Entity("ORM.CodeFirst.OrderProduct", b =>
+            modelBuilder.Entity("OrderProduct", b =>
                 {
-                    b.HasOne("ORM.CodeFirst.Order", "Order")
-                        .WithMany("OrderProducts")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("OrdersId")
+                        .HasColumnType("int");
 
-                    b.HasOne("ORM.CodeFirst.Product", "Product")
-                        .WithMany("OrderProducts")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("int");
 
-                    b.Navigation("Order");
+                    b.HasKey("OrdersId", "ProductsId");
 
-                    b.Navigation("Product");
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("OrderProduct");
                 });
 
             modelBuilder.Entity("ORM.CodeFirst.Student", b =>
@@ -260,19 +236,24 @@ namespace ORM.Migrations
                     b.Navigation("Student");
                 });
 
+            modelBuilder.Entity("OrderProduct", b =>
+                {
+                    b.HasOne("ORM.CodeFirst.Order", null)
+                        .WithMany()
+                        .HasForeignKey("OrdersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ORM.CodeFirst.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("ORM.CodeFirst.Group", b =>
                 {
                     b.Navigation("Students");
-                });
-
-            modelBuilder.Entity("ORM.CodeFirst.Order", b =>
-                {
-                    b.Navigation("OrderProducts");
-                });
-
-            modelBuilder.Entity("ORM.CodeFirst.Product", b =>
-                {
-                    b.Navigation("OrderProducts");
                 });
 
             modelBuilder.Entity("ORM.CodeFirst.Student", b =>
