@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORMConfiguration", "ORMConfiguration\ORMConfiguration.csproj", "{03F104FE-CCA5-4EE2-8A05-6719320B404E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F104FE-CCA5-4EE2-8A05-6719320B404E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F104FE-CCA5-4EE2-8A05-6719320B404E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F104FE-CCA5-4EE2-8A05-6719320B404E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F104FE-CCA5-4EE2-8A05-6719320B404E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

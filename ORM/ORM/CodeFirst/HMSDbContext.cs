@@ -22,6 +22,13 @@ namespace ORM.CodeFirst
             optionsBuilder.UseSqlServer("Server=Desktop-Nijat;Database=HMS1;Integrated Security = true;Encrypt=False;");
             base.OnConfiguring(optionsBuilder);
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<OrderProduct>()
+                .HasKey(x => new { x.ProductId, x.OrderId });
+            base.OnModelCreating(modelBuilder);
+        }
     }
 
 }
