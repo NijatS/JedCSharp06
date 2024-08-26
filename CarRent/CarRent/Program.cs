@@ -1,7 +1,15 @@
+using CarRent.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<CarRentDbContext>(opt =>
+{
+    opt.UseSqlServer("Server=localhost;Database=CarRent;User Id=sa;Password=DB_Password;Encrypt = false;");
+});
 
 var app = builder.Build();
 

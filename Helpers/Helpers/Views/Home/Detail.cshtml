@@ -1,0 +1,24 @@
+@model Student
+
+@* @Html.BeginForm("Privacy","Home",null,FormMethod.Post); *@
+
+
+@Html.LabelFor(x=>x.isActive,"Aktivdimi?")
+@Html.CheckBoxFor(x=>x.isActive)
+
+@Html.LabelFor(x=>x.isActive,"Hansi cinsdendi?")
+ERKEY: @Html.RadioButtonFor(x=>x.Gender,"Erkey")
+KADIN: @Html.RadioButtonFor(x=>x.Gender,"Kadin")
+
+@Html.LabelFor(x=>x.StudentName,"Tez ol adini daxil et!")
+@Html.TextBoxFor(x=>x.StudentName)
+
+
+@Html.LabelFor(x=>x.StudentName,"Tez ol adini daxil et!")
+@Html.TextAreaFor(x=>x.StudentName)
+
+@Html.DisplayFor(x=>x.StudentName)
+
+@Html.PasswordFor(x=>x.Gender)
+
+@Html.ValidationMessageFor(x=>x.StudentId);
