@@ -1,12 +1,23 @@
+using CarRent.Models;
+using CarRent.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarRent.Controllers;
 
 public class ServiceController : Controller
 {
-    // GET
-    public IActionResult Index()
+    private readonly IRepository<Service> _repository;
+
+    public ServiceController(IRepository<Service> repository)
     {
-        return View();
+        _repository = repository;
+    }
+
+    // GET
+    public async Task<IActionResult> Index()
+    {
+        var response = await _repository.GetAll().ToListAsync();
+        return View(response);
     }
 }
