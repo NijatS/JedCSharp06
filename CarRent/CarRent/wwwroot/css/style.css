@@ -1133,3 +1133,7 @@ a:not([href]):not([tabindex]) {
 .icon-chat:before {
     content: "\1F4AC";
 }
+.team-img img{
+    width: 260px !important;
+    height: 350px !important;
+}

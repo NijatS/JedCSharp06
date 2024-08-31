@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <Folder Include="wwwroot\admin\" />
+      <Folder Include="wwwroot\images\staves\" />
     </ItemGroup>
 
     <ItemGroup>
@@ -22,6 +23,12 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Areas\Admin\Views\Staff\Add.cshtml" />
+      <AdditionalFiles Include="Areas\Admin\Views\Staff\Index.cshtml" />
+      <AdditionalFiles Include="Areas\Admin\Views\Staff\Update.cshtml" />
     </ItemGroup>
 
 </Project>

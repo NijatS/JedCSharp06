@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
 
+
 builder.Services.AddDbContext<CarRentDbContext>(opt =>
 {
     opt.UseSqlServer("Server=localhost;Database=CarRent;User Id=sa;Password=DB_Password;Encrypt = false;");

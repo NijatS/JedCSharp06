@@ -1,12 +1,22 @@
+using CarRent.Models;
+using CarRent.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarRent.Controllers;
 
 public class HomeController : Controller
 {
+    private readonly IRepository<Staff> _repository;
 
-    public IActionResult Index()
+    public HomeController(IRepository<Staff> repository)
     {
-        return View();
+        _repository = repository;
+    }
+
+    public async Task<ActionResult> Index()
+    {
+       var staves = await  _repository.GetAll().Take(4).ToListAsync();
+        return View(staves);
     }
 }
