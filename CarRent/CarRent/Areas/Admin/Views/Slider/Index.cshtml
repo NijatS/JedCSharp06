@@ -1,0 +1,37 @@
+@model List<CarRent.Models.Slider>
+<div class="container-fluid p-3">
+    <table class="table fs-5">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Image</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var slider in Model)
+        {
+            <tr>
+                <th scope="row">@slider.Id</th>
+                <td>@slider.Title</td>
+                <td>@slider.Description</td>
+                <td> <img src="~/images/sliders/@slider.FileName" alt="slider Image"/></td>
+                <td>
+                    <a asp-action="update" asp-controller="slider" asp-route-id="@slider.Id">
+                        <i class="fas fa-pen-to-square"></i>
+                    </a>
+                </td>
+                <td>
+                    <a onclick="if(!confirm('Are you sure?')){ return false; }" asp-action="remove" asp-controller="slider" asp-route-id="@slider.Id">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <a class="btn btn-primary w-100" asp-controller="slider" asp-action="add">Add slider</a>
+</div>
