@@ -20,7 +20,7 @@ public class BlogController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var blogs = await _repository.GetAll().ToListAsync();
+        var blogs = await _repository.GetAll().Include(x=>x.Author).ToListAsync();
         return View(blogs);
     }
 
@@ -30,9 +30,9 @@ public class BlogController : Controller
         ViewBag.Tags = await _tagRepository.GetAll().ToListAsync();
 
         
-        ViewBag.Blogs =  await _repository.GetAll().OrderByDescending(x => x.CreateAt).Take(3).ToListAsync();
+        ViewBag.Blogs =  await _repository.GetAll().Include(x=>x.Author).OrderByDescending(x => x.CreateAt).Take(3).ToListAsync();
         var blog = await _repository.GetAll().Where(x=>x.Id == id).Include(x=>x.BlogTags)
-            .ThenInclude(x=>x.Tag).FirstOrDefaultAsync();
+            .ThenInclude(x=>x.Tag).Include(x=>x.Author).FirstOrDefaultAsync();
         return View(blog);
     }
 }
