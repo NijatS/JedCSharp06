@@ -2,6 +2,8 @@ using CarRent.Context;
 using CarRent.Models;
 using CarRent.Repositories;
 using CarRent.Repositories.Interfaces;
+using CarRent.Services;
+using CarRent.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NuGet.Protocol.Core.Types;
@@ -12,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
+builder.Services.AddScoped<IMailService, MailService>();
 
 
 builder.Services.AddDbContext<CarRentDbContext>(opt =>
@@ -30,6 +33,7 @@ builder.Services.AddIdentity<AppUser,IdentityRole>(options =>
         options.User.RequireUniqueEmail = true;
         options.Lockout.MaxFailedAccessAttempts = 3;
         options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+        options.SignIn.RequireConfirmedEmail = true;
     })
     .AddEntityFrameworkStores<CarRentDbContext>()
     .AddDefaultTokenProviders();
@@ -55,7 +59,7 @@ app.UseEndpoints(endpoint =>
 {
     endpoint.MapAreaControllerRoute(
         name: "admin",
-        pattern: "admin/{controller=Home}/{action=Index}/{id?}",
+        pattern: "admin/{controller=Account}/{action=Login}/{id?}",
         areaName: "admin"
     );
 

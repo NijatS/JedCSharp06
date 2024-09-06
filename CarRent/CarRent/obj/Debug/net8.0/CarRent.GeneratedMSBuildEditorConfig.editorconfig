@@ -80,6 +80,10 @@ build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU3RhZmYvVXBk
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Areas/Admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Areas/Admin/Views/Blog/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQmxvZy9BZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -148,8 +152,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Views/Account/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Gb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Views/Account/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/Views/Blog/Detail.cshtml]

@@ -1,6 +1,7 @@
 using System.Net;
 using CarRent.Models;
 using CarRent.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.Elfie.Serialization;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CarRent.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles = "SuperAdmin,Admin")]
 public class BlogController : Controller
 {
     private readonly IRepository<Blog> _repository;
