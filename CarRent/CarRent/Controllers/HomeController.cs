@@ -10,11 +10,12 @@ public class HomeController : Controller
 {
     private readonly IRepository<Staff> _repository;
     private readonly IRepository<Slider> _sliderRepository;
-
-    public HomeController(IRepository<Staff> repository, IRepository<Slider> sliderRepository)
+    private readonly IRepository<Service> _serviceRepository;
+    public HomeController(IRepository<Staff> repository, IRepository<Slider> sliderRepository, IRepository<Service> serviceRepository)
     {
         _repository = repository;
         _sliderRepository = sliderRepository;
+        _serviceRepository = serviceRepository;
     }
 
     public async Task<ActionResult> Index()
@@ -23,7 +24,8 @@ public class HomeController : Controller
         HomeVM model = new()
         {
             Staves = await _repository.GetAll().Take(4).ToListAsync(),
-            Sliders = await _sliderRepository.GetAll().ToListAsync()
+            Sliders = await _sliderRepository.GetAll().ToListAsync(),
+            Services = await _serviceRepository.GetAll().Take(6).ToListAsync()
         };
        
         return View(model);

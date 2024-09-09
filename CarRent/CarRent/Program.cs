@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using CarRent.Context;
 using CarRent.Models;
 using CarRent.Repositories;
@@ -11,7 +12,8 @@ using NuGet.Protocol.Core.Types;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddJsonOptions(x =>
+    x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
 builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
 builder.Services.AddScoped<IMailService, MailService>();
