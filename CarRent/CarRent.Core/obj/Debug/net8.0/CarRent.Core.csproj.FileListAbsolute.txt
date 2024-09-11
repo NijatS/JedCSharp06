@@ -1,0 +1,13 @@
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/bin/Debug/net8.0/CarRent.Core.deps.json
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/bin/Debug/net8.0/CarRent.Core.dll
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/bin/Debug/net8.0/CarRent.Core.pdb
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.csproj.AssemblyReference.cache
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.AssemblyInfoInputs.cache
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.AssemblyInfo.cs
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.csproj.CoreCompileInputs.cache
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.sourcelink.json
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.dll
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/refint/CarRent.Core.dll
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/CarRent.Core.pdb
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/Debug/net8.0/ref/CarRent.Core.dll

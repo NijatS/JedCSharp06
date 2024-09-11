@@ -1,24 +1,14 @@
 using CarRent.Models;
 using CarRent.Models.Account;
+using CarRent.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarRent.Areas.Admin.Controllers;
 
 [Area("Admin")]
-public class AccountController : Controller
+public class AccountController(IAccountService accountService) : Controller
 {
-    private readonly UserManager<AppUser> _userManager;
-    private readonly SignInManager<AppUser> _signInManager;
-    private readonly RoleManager<IdentityRole> _roleManager;
-
-    public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
-    {
-        _userManager = userManager;
-        _signInManager = signInManager;
-        _roleManager = roleManager;
-    }
-
     [HttpGet]
     public IActionResult Login()
     {
@@ -33,31 +23,13 @@ public class AccountController : Controller
     [HttpPost]
     public async Task<IActionResult> Login(LoginModel model)
     {
-        var user = await _userManager.FindByNameAsync(model.UserNameOrEmail);
-
-        if (user is null)
+        var response = await accountService.LoginAsync(model,false);
+        if (!response.IsSuccess)
         {
-            user = await _userManager.FindByEmailAsync(model.UserNameOrEmail);
-
-            if (user is null)
+            foreach (var error in response.Errors)
             {
-                ModelState.AddModelError("", "Invalid username or password.");
-                return View(model);
+                ModelState.AddModelError("", error);
             }
-        }
-
-        if (!await _userManager.IsInRoleAsync(user, "Admin") && !await _userManager.IsInRoleAsync(user, "SuperAdmin"))
-        {
-            ModelState.AddModelError("", "Invalid username or password.");
-            return View(model);
-        }
-        
-
-        var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, true);
-
-        if (!result.Succeeded)
-        {
-            ModelState.AddModelError("", "Invalid username or password.");
             return View(model);
         }
         
@@ -66,7 +38,7 @@ public class AccountController : Controller
 
     public async Task<IActionResult> Logout()
     {
-        await _signInManager.SignOutAsync();
+        await accountService.LogoutAsync();
         return RedirectToAction("index","home","default");
     }
 

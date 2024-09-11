@@ -1,4 +1,5 @@
 using System.Text.Json.Serialization;
+using CarRent;
 using CarRent.Context;
 using CarRent.Models;
 using CarRent.Repositories;
@@ -12,33 +13,8 @@ using NuGet.Protocol.Core.Types;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews().AddJsonOptions(x =>
-    x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
-builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
-builder.Services.AddScoped<IMailService, MailService>();
-
-
-builder.Services.AddDbContext<CarRentDbContext>(opt =>
-{
-    opt.UseSqlServer("Server=localhost;Database=CarRent;User Id=sa;Password=DB_Password;Encrypt=false;");
-}, ServiceLifetime.Transient);
-
-
-builder.Services.AddIdentity<AppUser,IdentityRole>(options =>
-    {
-        options.Password.RequireDigit = true;
-        options.Password.RequireLowercase = true;
-        options.Password.RequireUppercase = true;
-        options.Password.RequireNonAlphanumeric = true;
-        options.Password.RequiredLength = 8;
-        options.User.RequireUniqueEmail = true;
-        options.Lockout.MaxFailedAccessAttempts = 3;
-        options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-        options.SignIn.RequireConfirmedEmail = true;
-    })
-    .AddEntityFrameworkStores<CarRentDbContext>()
-    .AddDefaultTokenProviders();
+builder.Services.Register(builder.Configuration);
 
 var app = builder.Build();
 

@@ -7,9 +7,9 @@ namespace CarRent.Controllers;
 
 public class ServiceController : Controller
 {
-    private readonly IRepository<Service> _repository;
+    private readonly IRepository<Models.Service> _repository;
 
-    public ServiceController(IRepository<Service> repository)
+    public ServiceController(IRepository<Models.Service> repository)
     {
         _repository = repository;
     }

@@ -1,0 +1,16 @@
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/bin/Debug/net8.0/CarRent.Data.deps.json
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/bin/Debug/net8.0/CarRent.Data.dll
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/bin/Debug/net8.0/CarRent.Data.pdb
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/bin/Debug/net8.0/CarRent.Core.dll
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/bin/Debug/net8.0/CarRent.Core.pdb
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.csproj.AssemblyReference.cache
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.AssemblyInfoInputs.cache
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.AssemblyInfo.cs
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.csproj.CoreCompileInputs.cache
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.sourcelink.json
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent..23EBA441.Up2Date
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.dll
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/refint/CarRent.Data.dll
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/CarRent.Data.pdb
+/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/Debug/net8.0/ref/CarRent.Data.dll

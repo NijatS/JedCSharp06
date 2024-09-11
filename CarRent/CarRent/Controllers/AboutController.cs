@@ -22,6 +22,7 @@ public class AboutController : Controller
         {
             Staves = await _staffRepository.GetAll().Take(4).ToListAsync()
         };
+        
         return View(model);
     }
 }

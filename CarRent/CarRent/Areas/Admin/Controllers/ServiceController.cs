@@ -10,9 +10,9 @@ namespace CarRent.Areas.Admin.Controllers;
 [Authorize(Roles = "SuperAdmin,Admin")]
 public class ServiceController : Controller
 {
-    private readonly IRepository<Service> _repository;
-
-    public ServiceController(IRepository<Service> repository)
+    private readonly IRepository<Models.Service> _repository;
+    
+    public ServiceController(IRepository<Models.Service> repository)
     {
         _repository = repository;
     }
@@ -30,7 +30,7 @@ public class ServiceController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Add(Service service)
+    public async Task<IActionResult> Add(Models.Service service)
     {
         if (!ModelState.IsValid)
         {
@@ -49,7 +49,7 @@ public class ServiceController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Update(int id, Service service)
+    public async Task<IActionResult> Update(int id, Models.Service service)
     {
         if (!ModelState.IsValid)
         {

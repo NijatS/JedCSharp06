@@ -4,14 +4,14 @@
     "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/CarRent.csproj": {}
   },
   "projects": {
-    "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/CarRent.csproj": {
+    "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/CarRent.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/CarRent.csproj",
-        "projectName": "CarRent",
-        "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/CarRent.csproj",
+        "projectUniqueName": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/CarRent.Core.csproj",
+        "projectName": "CarRent.Core",
+        "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/CarRent.Core.csproj",
         "packagesPath": "/Users/nicat/.nuget/packages/",
-        "outputPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/obj/",
+        "outputPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nicat/.nuget/NuGet/NuGet.Config"
@@ -43,11 +43,219 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/CarRent.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/CarRent.Data.csproj",
+        "projectName": "CarRent.Data",
+        "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/CarRent.Data.csproj",
+        "packagesPath": "/Users/nicat/.nuget/packages/",
+        "outputPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nicat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/CarRent.Core.csproj": {
+                "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Core/CarRent.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Service/CarRent.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Service/CarRent.Service.csproj",
+        "projectName": "CarRent.Service",
+        "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Service/CarRent.Service.csproj",
+        "packagesPath": "/Users/nicat/.nuget/packages/",
+        "outputPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nicat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/CarRent.Data.csproj": {
+                "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Data/CarRent.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/CarRent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/CarRent.csproj",
+        "projectName": "CarRent",
+        "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/CarRent.csproj",
+        "packagesPath": "/Users/nicat/.nuget/packages/",
+        "outputPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nicat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Service/CarRent.Service.csproj": {
+                "projectPath": "/Users/nicat/Desktop/JedCSharp06/CarRent/CarRent.Service/CarRent.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
             },

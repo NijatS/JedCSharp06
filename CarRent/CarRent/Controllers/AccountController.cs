@@ -8,19 +8,8 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace CarRent.Controllers;
 
-public class AccountController : Controller
+public class AccountController(IMailService mailService,IAccountService accountService) : Controller
 {
-    private readonly UserManager<AppUser> _userManager;
-    private readonly SignInManager<AppUser> _signInManager;
-    private readonly IMailService _mailService;
-
-    public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager,
-        IMailService mailService)
-    {
-        _userManager = userManager;
-        _signInManager = signInManager;
-        _mailService = mailService;
-    }
 
     [HttpGet]
     public IActionResult Register()
@@ -36,38 +25,27 @@ public class AccountController : Controller
             return View(model);
         }
 
-        AppUser user = new AppUser()
+        var response = await accountService.RegisterAsync(model);
+        
+        if (!response.IsSuccess)
         {
-            Email = model.Email,
-            UserName = model.Username,
-            FirstName = model.FirstName,
-            LastName = model.LastName,
-        };
-
-        var identityResult = await _userManager.CreateAsync(user, model.Password);
-
-        if (!identityResult.Succeeded)
-        {
-            foreach (var error in identityResult.Errors)
+            foreach (var error in response.Errors)
             {
-                ModelState.AddModelError("", error.Description);
+                ModelState.AddModelError("", error);
             }
 
             return View(model);
         }
-
-        await _userManager.AddToRoleAsync(user, "User");
         
-        var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-
+        var item = (dynamic)response.Item;
+        
         var link = Url.Action("ConfirmEmail", "Account", new
             {
-                userId = user.Id, token = token
-            },protocol: HttpContext.Request.Scheme
+                userId = item.user.Id, token = item.token
+            }, protocol: HttpContext.Request.Scheme
         );
 
-        _mailService.SendMail(user.Email, "Verify Email",$"Please click this link {link} to verify your email");
-
+        mailService.SendMail(item.user.Email, "Verify Email", $"Please click this link {link} to verify your email");
 
         return RedirectToAction("Index", "Home");
     }
@@ -81,51 +59,31 @@ public class AccountController : Controller
     [HttpPost]
     public async Task<IActionResult> Login(LoginModel model)
     {
-        var user = await _userManager.FindByNameAsync(model.UserNameOrEmail);
-
-        if (user is null)
-        {
-            user = await _userManager.FindByEmailAsync(model.UserNameOrEmail);
-
-            if (user is null)
-            {
-                ModelState.AddModelError("", "Invalid username or password.");
-                return View(model);
-            }
-        }
-
-        if (!await _userManager.IsInRoleAsync(user, "User"))
-        {
-            ModelState.AddModelError("", "You do not have permission to access this page.");
-            return View(model);
-        }
-
-        var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, true);
-
-        if (!result.Succeeded)
-        {
-            ModelState.AddModelError("", "Invalid username or password.");
-            return View(model);
-        }
-
+       var response = await accountService.LoginAsync(model,false);
+       if (!response.IsSuccess)
+       {
+           foreach (var error in response.Errors)
+           {
+               ModelState.AddModelError("", error);
+           }
+           return View(model);
+       }
         return RedirectToAction("Index", "Home");
     }
 
     public async Task<IActionResult> Logout()
     {
-        await _signInManager.SignOutAsync();
+        await accountService.LogoutAsync();
         return RedirectToAction("Index", "Home");
     }
 
     public async Task<IActionResult> ConfirmEmail(string userId, string token)
     {
-        var user = await _userManager.FindByIdAsync(userId);
-        if (user is null)
+        var response = await accountService.ConfirmEmail(userId, token);
+        if (!response.IsSuccess)
         {
-           return NotFound();
+            return NotFound();
         }
-        await _userManager.ConfirmEmailAsync(user, token);
-        await _signInManager.SignInAsync(user, false);
         return RedirectToAction("Index", "Home");
     }
 
@@ -138,19 +96,16 @@ public class AccountController : Controller
     [HttpPost]
     public async Task<IActionResult> ForgetPassword(ForgetPasswordModel model)
     {
-        var user = await _userManager.FindByEmailAsync(model.Email);
-        if (user is null)
-        {
-            return RedirectToAction("Index", "Home");
-        }
-        
-        var token = await _userManager.GeneratePasswordResetTokenAsync(user);   
-        var link = Url.Action("ResetPassword", "Account", new{userId = user.Id, token = token}, protocol: HttpContext.Request.Scheme);
-        
-        _mailService.SendMail(user.Email, "Reset Password",$"Please click this link {link} to reset your password");
+        var response = await accountService.ForgetPassword(model);
+        var item = (dynamic)response.Item;
+   
+        var link = Url.Action("ResetPassword", "Account", new { userId = item.user.Id, token = item.token },
+            protocol: HttpContext.Request.Scheme);
+
+        mailService.SendMail(item.user.Email, "Reset Password", $"Please click this link {link} to reset your password");
         return RedirectToAction("Index", "Home");
     }
-    
+
     [HttpGet]
     public IActionResult ResetPassword(string userId, string token)
     {
@@ -170,31 +125,28 @@ public class AccountController : Controller
         {
             return View(model);
         }
-        
-        var user = await _userManager.FindByIdAsync(model.UserId);
-        if (user is null)
+        var response = await accountService.ResetPassword(model);
+        if (!response.IsSuccess)
         {
-            return NotFound();
-        }
-        
-        IdentityResult result = await _userManager.ResetPasswordAsync(user, model.Token, model.Password);
-        if (!result.Succeeded)
-        {
-            foreach (var error in result.Errors)
+            foreach (var error in response.Errors)
             {
-                ModelState.AddModelError("", error.Description);
+                ModelState.AddModelError("", error);
             }
             return View(model);
         }
+        
         return RedirectToAction("login", "account");
     }
 
     [HttpGet]
-    [Authorize(Roles ="User" )]
+    [Authorize(Roles = "User")]
     public async Task<IActionResult> Info()
     {
-      var user = await  _userManager.FindByNameAsync(User.Identity.Name);
-      return View(user);
+        var response = await accountService.Info(User.Identity.Name);
+        if (!response.IsSuccess)
+        {
+            return BadRequest();
+        }
+        return View(response.Item);
     }
-    
 }
